@@ -1,0 +1,50 @@
+# Skeleton Extraction from Images using OpenCV
+
+## 📌 Overview
+Skeleton extraction (also called morphological thinning) reduces objects in an image to thin representations preserving the basic structure and connectivity.
+
+This project uses *Python + OpenCV* to extract skeletons from images using morphological operations.
+
+---
+
+## 📂 Project Structure
+skeleton-extraction-opencv/ │ ├── data/                # Input images ├── output/              # Skeleton outputs ├── src/                 # Source code ├── README.md            # Project documentation └── requirements.txt     # Python dependencies
+
+---
+
+## 🛠 Requirements
+Install dependencies using:
+
+pip install -r requirements.txt
+
+---
+
+## ▶️ How to Run
+1. Put your input images inside the *data/* folder  
+2. Run the Python script:
+
+python src/skeleton_extraction.py
+
+3. Results will be saved inside *output/*
+4.## 📷 Sample Results
+
+| Input Image | Skeleton Output |
+|-------------|-----------------|
+| sample1.jpg | sample1_skeleton.png |
+| sample2.jpg | sample2_skeleton.png |
+
+(Add your images here after running the code)
+
+---
+
+## 📘 Algorithm Used
+- Convert to grayscale  
+- Apply Gaussian blur  
+- Threshold the image  
+- Apply morphological thinning (skeletonization) using iterative erosion + dilation  
+- Combine results to form skeleton  
+
+---
+
+## 📄 License
+This project is open-source under MIT License.
