@@ -1,0 +1,18 @@
+skeleton-extraction/
+│
+├── data/
+│   ├── sample1.jpg
+│   ├── sample2.png
+│   └── (input images)
+│
+├── output/
+│   ├── result1.png
+│   ├── result2.png
+│   └── (skeleton results)
+│
+├── src/
+│   └── skeleton_extraction.py
+│
+├── README.md
+├── requirements.txt
+└── LICENSE (optional)
